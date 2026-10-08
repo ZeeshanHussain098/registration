@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign In</title>
+        <style>
+            body{
+                background-color: #8096d2;
+                padding: 7% 40%;
+            }
+            h1{
+                text-align: center;
+            }
+            
+            .sign-in-form{
+                background-color: white;
+                width: 300px;
+                padding: 20px;
+                border: 3px solid #ccc;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+                color: #0c3197;
+                border-color: #0c3197;
+            }
+            input[type="email"],
+            input[type="password"]{
+                width: 100%;
+                padding: 10px 0px 10px;
+                margin-bottom: 20px;
+                border: 2px solid #ccc;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                border-radius: 5px;
+                border-color: #0c3197;
+            }
+            input[type="button"]{
+                width: 100%;
+                padding: 10px;
+                background-color: #0c3197;
+                color: #fff;
+                margin-top: 20px;
+                border: none;
+                border-radius: 5px; 
+                cursor: pointer;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                
+            }
+            input[type="button"]:hover {
+                background-color: rgb(37, 50, 161);
+                
+            }
+            
+        </style>
+    </head>
+    <body>
+       
+        <form class="sign-in-form">
+            <h1>Sign In</h1>
+            <label for="mail"> <b>Email:</b></label><br><br>
+            <input type="email" id="mail" placeholder="Enter your email address"><br>
+            <label for="pass"> <b>Password:</b></label><br><br>
+            <input type="password" id="pass" placeholder="Enter your password" /><br>
+            <input type="checkbox"> <b>Remember me</b> <br>
+            <input type="button" value="submit" placeholder="submit">
+            <a href="Sign Up.html">I don't have an account</a>
+        </form>
+    </body>
+</html>
